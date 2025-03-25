@@ -26,7 +26,7 @@ class Solution:
                res.append(interval)
             else:
                   res[-1][1] = max(res[-1][1], interval[1])
-        return res    
+        return res
 
 s = Solution()
 print(s.merge([[1,3],[2,6],[8,10],[15,18]])) # [[1,6],[8,10],[15,18]]
