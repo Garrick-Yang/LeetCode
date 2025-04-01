@@ -30,4 +30,6 @@ class Solution2:
             result.append(node.val)
             node = node.right
         return result
+
+
     
